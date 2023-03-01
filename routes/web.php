@@ -13,7 +13,7 @@ use App\Http\Controllers\BotManController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::match(['get', 'post'], 'botman', [BotManController::class, 'handle']);
+Route::match(['get', 'post'], '/botman', [BotManController::class, 'handle']);
 Route::get('/', function () {
     return view('welcome');
 });

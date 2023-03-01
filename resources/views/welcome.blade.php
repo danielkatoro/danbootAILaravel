@@ -9,12 +9,14 @@
     </head>
     <body>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/assets/css/chat.min.css">
+<!-- <link rel="stylesheet" type="text/css" href="chat.min.css"> -->
 <script>
 var botmanWidget = {
 aboutText: 'Ecrivez quelque chose',
 introMessage: "✋ Bonjour! Que voulez savoir?"
 };
 </script>
-<script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script>
+<!-- <script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script> -->
+<script src='widget.js'></script>
 <body>
 </html>
